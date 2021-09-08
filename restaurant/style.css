@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    padding: 8px 16px;
+    position: sticky;
+}
+
+.shadow {
+    box-shadow: 1px 3px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+
+.home-link {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+.nav-container {
+    position: absolute;
+    right: 0.8rem;
+    display: flex;
+}
+
+.nav-links {
+    color: black;
+    padding: 8px 16px;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+/* cover image+div */
+.hero-image {
+    width: 100%;
+    height: 94vh;
+    object-fit: cover;
+}
+
+.header-title {
+    margin-top: -80px;
+    margin-left: 24px;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+/* About */
+.content {
+    padding-top: 69px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+#about {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 78%;
+}
+
+.img-about {
+    text-align: center;
+    width: 500px;
+    opacity: 0.75;
+    object-fit: cover;
+    border-radius: 4px;
+    display: inline-block;
+    max-width: 1000px;
+    padding-right: 24px;
+}
+
+.about-container {
+    padding: 12px 24px;
+    text-align: center;
+}
+
+.title {
+    font-family: "Playfair Display", sans-serif;
+    letter-spacing: 5px;
+    font-size: 33px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    margin: 1.67rem 0;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: 1.07rem;
+    margin-top: 2.2rem;
+}
+
+.text {
+    font-family: 'Times New Roman', Georgia, serif;
+    font-size: 18px;
+    margin: 1.5rem 0;
+    text-align: justify;
+}
+
+span {
+    background-color: #f1f1f1;
+    padding: 4px 8px;
+}
+
+.second {
+    color: #757575;
+}
+
+/* Menu */
+.menu-container {
+    padding-right: 40px;
+}
+
+.menu {
+    padding-bottom: 1.3rem;
+}
+
+.meals {
+    font-family: "Playfair Display", sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h4 {
+    margin: 1.2rem 0;
+}
+
+hr {
+    margin: 2rem 9rem 2rem 8rem;
+    opacity: 0.2;
+}
+
+.img-menu {
+    text-align: center;
+    width: 500px;
+    opacity: 0.75;
+    object-fit: cover;
+    border-radius: 4px;
+    display: inline-block;
+    max-width: 1000px;
+    padding-left: 24px;
+}
+
+/* Contact */
+.contact {
+    margin: 5.2rem 8.8rem;
+}
+
+.contact h1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info {
+    margin-top: 3.3rem;
+}
+
+.addres {
+    margin: 1.4rem 0;
+    color: #607D8b;
+}
+
+/* Form */
+#name {
+    margin-top: 1.8rem;
+}
+
+input {
+    border: none;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(99, 99, 99, 0.3);
+    width: 100%;
+    
+}
+
+p input { 
+    margin: 0.6rem 0;
+}
+
+button {
+    border: none;
+    margin: 1.4rem 0;
+    padding: 0.8rem 0.8rem;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 3rem;
+    color: black;
+    text-align: center;
+}
