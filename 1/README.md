@@ -6,7 +6,7 @@
 - [What I learned](#what-i-learned) - Oque eu aprendi
 
 ### Screenshot
-<a href="navbar.png"></a>
+<img src="navbar.png"/>
 
 ## My process
 I'm doing some navbars to have understand CSS better and also because this is a common feature in websites,
