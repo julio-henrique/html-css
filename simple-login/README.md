@@ -20,7 +20,7 @@ Fazer uma página de login, com um uma foto de fundo.
 
 
 ## Author
-- LinkedIn - [@Júlio Henrique](https://www.linkedin.com/julio-henriquee)
+- LinkedIn - [@Júlio Henrique](https://www.linkedin.com/in/julio-henriquee)
 
 
 ## Reconhecimento
