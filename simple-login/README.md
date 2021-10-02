@@ -16,7 +16,7 @@ Fazer uma página de login, com um uma foto de fundo.
 
 ### Captura de tela
 
-![](./simple-login.PNG)
+![](./final-simple-login.PNG)
 
 
 ## Author
