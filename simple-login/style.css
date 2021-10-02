@@ -54,4 +54,17 @@ body {
     margin: 0 10px;
 }
 
-/* input::placeholder */
+
+input::placeholder {
+    color: white;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 0.5rem 2rem;
+    font-size: 1.3rem;
+    background: #4caf50;
+    border: 0;
+    color: white;
+}
